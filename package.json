@@ -1,42 +1,32 @@
 {
-  "name": "Modelo",
+  "name": "BankOfMoney",
   "version": "1.0.0",
-  "description": "React Template for @tundradawn",
-  "main": "dist/index.js",
+  "description": "Listen to facejam",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server",
-    "build": "node_modules/.bin/webpack",
-    "browser-sync": "browser-sync start --server 'dist' --files 'dist'"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tundradawn/<repo>.git"
+    "url": "git+https://github.com/danieltamkin/ericbaudoursbankofmoney.com.git"
   },
-  "author": "tundra dawn <hello@tundradawn.co>",
-  "homepage": "https://github.com/tundradawn/<repo>#readme",
-  "license": "AGPL-3.0-or-later",
+  "author": "daniel tamkin <me@danieltamkin.com>",
+  "homepage": "https://github.com/danieltamkin/ericbaudoursbankofmoney.com#readme",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tundradawn/<repo>/issues"
+    "url": "https://github.com/danieltamkin/ericbaudoursbankofmoney.com/issues"
   },
   "dependencies": {
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-helmet": "^6.0.0",
-    "styled-components": "5.1.0"
+    "gatsby": "^2.23.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.8.4",
-    "@babel/core": "7.9.0",
-    "@babel/plugin-proposal-class-properties": "7.8.3",
-    "@babel/preset-env": "7.9.5",
-    "@babel/preset-react": "7.9.4",
-    "babel-loader": "8.1.0",
-    "copy-webpack-plugin": "5.1.1",
-    "css-loader": "3.5.2",
-    "html-webpack-plugin": "4.2.0",
-    "style-loader": "1.1.4",
-    "webpack": "4.43.0",
-    "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.10.3"
+    "prettier": "2.0.5"
   }
 }
