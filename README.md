@@ -1,7 +1,11 @@
-# Modelo Reactjs 🛠👩‍💻
+# Eric needs that $45,000 
 
-Spanish for Template, contains reactjs configurations used by @tundradawn. 
 
+
+##### Background:
+
+Roosterteeth's Peter Hayes tweeted the [existance of eric baudours personal bank](https://twitter.com/ThatPeterHayes/status/1273331165420834816?s=20). Who's eric? Producer / Personality for RoosterTeeth. 
+###### Listen to [facejam](https://roosterteeth.com/series/face-jam)
 
 # Contents
 
@@ -46,4 +50,4 @@ Why did i choose this licence? For this specific line right here:
 
 _Found on [choosealicence.com](https://choosealicense.com/licenses/);_
 
-This seems to be a good all around licence to ensure all parties are getting the same access to Opensource Software software..
+This seems to be a good all around licence to ensure all parties are getting the same access to Opensource Software software.
