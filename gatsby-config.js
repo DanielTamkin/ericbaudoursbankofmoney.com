@@ -1,10 +1,15 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Bank of eric`,
+    author: {
+      name: `Daniel Tamkin`,
+      summary: `developer - hire me <me@danieltamkin.com>`,
+    },
+    description: `Eric baudours personal bank. Who's eric? Producer / Personality for RoosterTeeth.`,
+    siteUrl: `https://http://ericbaudoursbankofmoney.com/`,
+    social: {
+      twitter: `EricBaudour`,
+    },
+  },
   plugins: [],
 }
